@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ARTICLE>
+  <TEMPLATE>
+    <TITLE>Summary</TITLE>
+    <IDX>common_summary</IDX>
+    <HTML><![CDATA[
+        <div class="qp-block">
+            <h1 class="as-center">Qpress Builder</h1>
+            <div class="qp-divider"><i class="fas fa-bookmark"></i></div>
+            <p>Qpress is a modern CSS framework with built-in responsiveness. You don't have to spend a lot of time to satisfy both mobile and PC. And you don't have to struggle to maintain a consistent gap, a gap between each element in the webpage. Also, because you do not use a third-party library such as jquery, you can keep the overall speed fast. Qpress builder enables well-designed web pages to be completed in tens of minutes without requiring knowledge of css and html.</p>
+            <div class="qp-row as-center">
+                <button class="qp-btn as-btn-main">View Details</button> <button class="qp-btn2 as-btn-main">View Details</button>
+            </div>
+        </div>
+     ]]></HTML>
+  </TEMPLATE>
+  <TEMPLATE>
+    <TITLE>Summary - Icon</TITLE>
+    <IDX>common_summary_icon</IDX>
+    <HTML><![CDATA[
+        <div class="qp-block">
+            <div class="qp-icon as-jumbo as-center"><i class="fas fa-quote-left"></i></div>
+            <h1 class="as-center">Headline</h1>
+            <div class="qp-divider">#</div>
+            <p>Earth is the third planet from the Sun and the only object in the Universe known to harbor life. According to radiometric dating and other sources of evidence, Earth formed over 4 billion years ago. Earth is the third planet from the Sun and the only object in the Universe known to harbor life.</p>
+            <p>Earth is the third planet from the Sun and the only object in the Universe known to harbor life. According to radiometric dating and other sources of evidence, Earth formed over 4 billion years ago. Earth is the third planet from the Sun and the only object in the Universe known to harbor life.</p>
+        </div>
+     ]]></HTML>
+  </TEMPLATE>
+  <TEMPLATE>
+    <TITLE>Image</TITLE>
+    <IDX>common_image</IDX>
+    <HTML><![CDATA[
+        <figure class="qp-image">
+            <img src="https://www.getqpress.com/builder/qbuilder/images/sample.jpg">
+            <figcaption class="qp-image-caption">
+            Image caption...
+            </figcaption>
+        </figure>
+     ]]></HTML>
+  </TEMPLATE>
+  <TEMPLATE>
+    <TITLE>Image - Cover</TITLE>
+    <IDX>common_cover</IDX>
+    <HTML><![CDATA[
+        <div class="qp-block" style="height:400px">
+            <div class="qp-cover as-fit as-bottom" style="background-image:url('https://www.getqpress.com/builder/qbuilder/images/sample3.jpg')">
+                <div class="qp-cover-content as-dark">
+                    <p>
+                        Image caption
+                    </p>
+                </div>
+            </div>
+        </div>
+     ]]></HTML>
+  </TEMPLATE>
+  <TEMPLATE>
+    <TITLE>2 Columns contents</TITLE>
+    <IDX>common_2c_contents</IDX>
+    <HTML><![CDATA[
+        <div class="qp-grid as-grid-gap">
+            <div class="qp-grid-cell as-md-w100">
+                <div class="qp-cover  as-fit as-bottom" style="height:300px;background-image:url('https://www.getqpress.com/builder/qbuilder/images/sample.jpg')">
+                    <div class="qp-cover-content as-dark">
+                        <h3>QPRESS</h3>
+                        <p>
+                            Qpress is a modern CSS framework with built-in responsiveness.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="qp-grid-cell as-md-w100">
+                <h1 class="as-center">QPRESS</h1>
+                <p>
+                    Qpress is a modern CSS framework with built-in responsiveness. You don't have to spend a lot of time to satisfy both mobile and PC. And you don't have to struggle to maintain a consistent gap, a gap between each element in the webpage. Also, because you do not use a third-party library such as jquery, you can keep the overall speed fast. Qpress builder enables well-designed web pages to be completed in tens of minutes without requiring knowledge of css and html.
+                </p>
+                <div class="qp-row as-center">
+                    <button class="qp-btn">View Details</button> <button class="qp-btn2">View Details</button>
+                </div>
+            </div>
+        </div>
+     ]]></HTML>
+  </TEMPLATE>
+  <TEMPLATE>
+    <TITLE>Grid - Cards</TITLE>
+    <IDX>common_grid_cards</IDX>
+    <HTML><![CDATA[
+        <div class="qp-grid as-grid-gap">
+            <div class="qp-grid-cell as-md-w100">
+                <div class="qp-cover as-fit as-bottom as-br" style="background-image: url('https://www.getqpress.com/builder/qbuilder/images/sample7.jpg'); height: 200px;">
+                    <div class="qp-cover-content as-dark5">
+                        <span class="as-xlarge as-bold">Qpress</span>
+                    </div>
+                </div>
+                <p>Qpress is a modern CSS framework with built-in responsiveness</p>
+                <div class="qp-row as-center">
+                    <button class="qp-btn as-btn-main">View Details</button>
+                </div>
+            </div>
+            <div class="qp-grid-cell as-md-w100">
+                <div class="qp-cover as-fit as-bottom as-br" style="background-image: url('https://www.getqpress.com/builder/qbuilder/images/sample7.jpg'); height: 200px;">
+                    <div class="qp-cover-content as-dark5">
+                        <span class="as-xlarge as-bold">Qpress</span>
+                    </div>
+                </div>
+                <p>Qpress is a modern CSS framework with built-in responsiveness</p>
+                <div class="qp-row as-center">
+                    <button class="qp-btn as-btn-main">View Details</button>
+                </div>
+            </div>
+            <div class="qp-grid-cell as-md-w100">
+                <div class="qp-cover as-fit as-bottom as-br" style="background-image: url('https://www.getqpress.com/builder/qbuilder/images/sample7.jpg'); height: 200px;">
+                    <div class="qp-cover-content as-dark5">
+                        <span class="as-xlarge as-bold">Qpress</span>
+                    </div>
+                </div>
+                <p>Qpress is a modern CSS framework with built-in responsiveness</p>
+                <div class="qp-row as-center">
+                    <button class="qp-btn as-btn-main">View Details</button>
+                </div>
+            </div>
+        </div>
+     ]]></HTML>
+  </TEMPLATE>
+  <TEMPLATE>
+    <TITLE>Image Lists - Cover</TITLE>
+    <IDX>common_image_list_cover</IDX>
+    <HTML><![CDATA[
+        <ul class="qp-list">
+            <li>
+                <div class="qp-cover" style="background-image:url('https://www.getqpress.com/builder/qbuilder/images/sample.jpg');height:200px"></div>
+            </li>
+            <li>
+                <div class="qp-cover" style="background-image:url('https://www.getqpress.com/builder/qbuilder/images/sample2.jpg');height:200px"></div>
+            </li>
+            <li>
+                <div class="qp-cover" style="background-image:url('https://www.getqpress.com/builder/qbuilder/images/sample3.jpg');height:200px"></div>
+            </li>
+            <li>
+                <div class="qp-cover" style="background-image:url('https://www.getqpress.com/builder/qbuilder/images/sample4.jpg');height:200px"></div>
+            </li>
+            <li>
+                <div class="qp-cover" style="background-image:url('https://www.getqpress.com/builder/qbuilder/images/sample5.jpg');height:200px"></div>
+            </li>
+            <li>
+                <div class="qp-cover" style="background-image:url('https://www.getqpress.com/builder/qbuilder/images/sample6.jpg');height:200px"></div>
+            </li>
+        </ul>
+     ]]></HTML>
+  </TEMPLATE>
+</ARTICLE>
