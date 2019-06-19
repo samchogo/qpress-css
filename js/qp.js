@@ -451,9 +451,10 @@ function Qpress() {
         if(findWrap(e.target, "as-nav-responsive")) return;
         if(findWrap(e.target, "qp-md-menu")) return;
         for (var i = 0; i < x.length; i++) {
-          if (x[i].getElementsByTagName("UL")[0].style.display == "block") {
-            x[i].getElementsByTagName("UL")[0].style.display = "none";
-          }
+            x[i].getElementsByTagName("UL")[0].classList.remove("as-md-block");
+          // if (x[i].getElementsByTagName("UL")[0].style.display == "block") {
+          //   x[i].getElementsByTagName("UL")[0].style.display = "none";
+          // }
         }
     }
     /* ----------------------
@@ -778,10 +779,12 @@ function Qpress() {
             var menu = nav.getElementsByTagName('UL')[0];
             if(!menu) return;
             menu.classList.add("as-animate-left");
-            menu.style.display = "block";
+            //menu.style.display = "block";
+            menu.className += " as-md-block";
             var closeBtn = document.createElement('Button');
             closeBtn.classList.add("qp-btn","as-btn-parent", "as-absolute");
             closeBtn.setAttribute("id","btnMdNavClose");
+            closeBtn.className += " as-md-only";
             closeBtn.innerHTML = "X";
             closeBtn.style.top = "5px";
             closeBtn.style.left = "20px";
@@ -794,7 +797,8 @@ function Qpress() {
             if(!nav) return;
             var menu = nav.getElementsByTagName('UL')[0];
             if(!menu) return;
-            menu.style.display = "none";
+            //menu.style.display = "none";
+            menu.classList.remove('as-md-block');
             var closeBtn = document.getElementById('btnMdNavClose');
             if(closeBtn) closeBtn.parentNode.removeChild(closeBtn);
         }

@@ -1611,6 +1611,7 @@ body.qp-ie9 .qp-list.as-gap > li {
   border: 1px solid #e2e6e9;
   border-radius: 0 0 4px 4px;
   min-width: 150px;
+  white-space: nowrap;
   z-index: 999;
   animation: opac 0.2s;
 }
@@ -3858,21 +3859,21 @@ mark {
 .as-medium {
   font-size: 15px;
 }
-.as-text-largem,
+.as-text-large,
 .as-large {
   font-size: 18px;
 }
 .as-text-xlarge,
 .as-xlarge {
-  font-size: 23px;
+  font-size: 24px;
 }
 .as-text-xxlarge,
 .as-xxlarge {
-  font-size: 28px;
+  font-size: 36px;
 }
 .as-text-xxxlarge,
 .as-xxxlarge {
-  font-size: 32px;
+  font-size: 48px;
 }
 .as-text-jumbo,
 .as-jumbo {
@@ -5706,6 +5707,9 @@ helper
     overflow-y: scroll;
     overflow-x: hidden;
     z-index: 999;
+  }
+  .qp-nav.as-nav-responsive > .as-md-block {
+    display: block;
   }
   .qp-nav.as-nav-responsive > ul ul {
     display: block;

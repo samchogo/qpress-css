@@ -1,4 +1,4 @@
-/* ----------------------------
+ /* ----------------------------
 Customization
 ------------------------------*/
 /* Main color */
@@ -770,6 +770,7 @@ body.qp-ie9 .qp-list.as-gap>li{padding:0px @space-half;margin-bottom:@space;vert
     border:1px solid @border-color;
     border-radius:0 0 4px 4px;
     min-width:150px;
+    white-space: nowrap;
     z-index:999;
     animation:opac 0.2s;
 }
@@ -2052,8 +2053,8 @@ mark{background-color:#FFFACD}
 .as-position-bottomcenter, .qsp-bottomcenter{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
 
 /* font size */
-.as-text-tiny, .as-tiny{font-size:10px}.as-text-small, .as-small{font-size:12px}.as-text-medium, .as-medium{font-size:15px}.as-text-largem, .as-large{font-size:18px}
-.as-text-xlarge, .as-xlarge{font-size:23px}.as-text-xxlarge, .as-xxlarge{font-size:28px}.as-text-xxxlarge, .as-xxxlarge{font-size:32px}.as-text-jumbo, .as-jumbo{font-size:64px}
+.as-text-tiny, .as-tiny{font-size:10px}.as-text-small, .as-small{font-size:12px}.as-text-medium, .as-medium{font-size:15px}.as-text-large, .as-large{font-size:18px}
+.as-text-xlarge, .as-xlarge{font-size:24px}.as-text-xxlarge, .as-xxlarge{font-size:36px}.as-text-xxxlarge, .as-xxxlarge{font-size:48px}.as-text-jumbo, .as-jumbo{font-size:64px}
 
 .as-h1{font-size:36px}.as-h2{font-size:30px}.as-h3{font-size:24px}.as-h4{font-size:20px}.as-h5{font-size:18px}.as-h6{font-size:16px}
 .as-h1,.as-h2,.as-h3,.as-h4,.as-h5,.as-h6{font-family:@font-family-heading;font-weight:400;line-height:1.3}
@@ -2697,6 +2698,9 @@ helper
         overflow-y:scroll;
         overflow-x:hidden;
         z-index:999;
+    }
+    .qp-nav.as-nav-responsive>.as-md-block{
+        display:block;
     }
     .qp-nav.as-nav-responsive>ul ul{display:block}
     .qp-nav.as-nav-responsive>ul>li>ul li{
