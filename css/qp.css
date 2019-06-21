@@ -4853,6 +4853,21 @@ mark {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
+.as-flex.as-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.as-flex.as-left {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.as-flex.as-right {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
 .as-flex-contents {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
