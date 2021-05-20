@@ -116,5 +116,5 @@ Vars
 }
 ```
 
-## Documentats
+## Documents
 http://www.qpress.me/qpress/documents/intro
