@@ -117,4 +117,4 @@ Vars
 ```
 
 ## Documentats
-[www.qpress.me]
+[www.qpress.me/qpress]
